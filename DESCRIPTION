@@ -1,0 +1,25 @@
+Package: synpdx
+Title: NLME-Based Drug-Interaction Analysis for PDX Studies
+Version: 0.1.0
+Authors@R: c(
+    person(given = "Junho", family = "Yoon", email = "mothquitoman@gmail.com", role = c("aut", "cre")),
+    person(given = "Min Jin", family = "Ha", role = "aut")
+  )
+Description: A Non-Linear Mixed Effect Modeling Framework for Quantifying Drug Synergy
+    in in vivo Preclinical Combination Therapy.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends: R (>= 4.2)
+Imports:
+    saemix,
+    dplyr,
+    tibble,
+    ggplot2,
+    goftest,
+    MASS,
+    ggh4x,
+    stats,
+    utils,
+    rlang
