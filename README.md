@@ -5,7 +5,7 @@ It fits tumor growth and drug-effect models, computes subject-level interaction 
 
 ---
 
-## Installation
+# Installation
 
 You can install the development version of synpdx from GitHub using remotes:
 
@@ -14,7 +14,7 @@ remotes::install_github("mothquitoman-kor/synpdx")
 
 ---
 
-## Example
+# Example
 
 The package includes a curated example dataset:
 
