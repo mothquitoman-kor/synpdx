@@ -1,0 +1,21 @@
+Package: synpdx
+Title: NLME-Based Interaction Analysis for PDX Combination Studies
+Version: 0.1.0
+Authors@R: c(person(given="Junho", family="Yoon", role=c("aut","cre"), email="mothquitoman@gmail.com"))
+Description: Fits NLME tumor growth and drug-effect models with SAEM
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports:
+ saemix,
+ dplyr,
+ tibble,
+ ggplot2,
+ ggh4x,
+ goftest,
+ MASS,
+ stats,
+ utils
+Suggests:
+ readr
