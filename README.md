@@ -1,26 +1,13 @@
-
 # synpdx
 
-<!-- badges: start -->
-<!-- badges: end -->
+synpdx is an R package for nonlinear mixed-effects (NLME) modeling and interaction analysis in in vivo patient-derived xenograft (PDX) combination studies.  
+It fits tumor growth and drug-effect models, computes subject-level interaction distances (Dᵢ), and performs chi-square and bootstrap hypothesis testing to classify synergism, additivity, or antagonism.
 
-The goal of synpdx is to ...
+---
 
 ## Installation
 
-You can install the development version of synpdx from [GitHub](https://github.com/) with:
+You can install the development version of synpdx from GitHub using remotes:
 
-``` r
-# install.packages("pak")
-pak::pak("mothquitoman-kor/synpdx")
-```
-
-## Example
-
-This is a basic example which shows you how to solve a common problem:
-
-``` r
-library(synpdx)
-## basic example code
-```
-
+```r
+remotes::install_github("mothquitoman-kor/synpdx")
