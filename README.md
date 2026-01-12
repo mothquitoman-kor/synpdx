@@ -1,6 +1,6 @@
 # synpdx
 
-synpdx is an R package for nonlinear mixed-effects (NLME) modeling and interaction analysis in *in vivo* patient-derived xenograft (PDX) combination studies.  
+synpdx is an R package for nonlinear mixed-effects modeling and interaction analysis in *in vivo* patient-derived xenograft (PDX) combination studies.  
 It fits tumor growth and drug-effect models, computes subject-level interaction distances (Dᵢ), and performs chi-square and bootstrap hypothesis testing to classify synergism, additivity, or antagonism.
 
 ---
@@ -68,7 +68,4 @@ When `out_dir` is specified, the following files are written:
 
 ## Citation
 
-If you use synpdx, please cite:
-
-> Something
-
+Not published in the journal yet
